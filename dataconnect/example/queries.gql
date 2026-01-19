@@ -1,0 +1,32 @@
+mutation CreateUser @auth(level: USER, insecureReason: "This operation is safe to expose to all logged in users.") {
+  user_insert(data: {
+    createdAt_expr: "request.time",
+    email: "newuser@example.com",
+    firstName: "New",
+    lastName: "User",
+    passwordHash: "somehashedpassword"
+  })
+}
+
+query ListUsers @auth(level: USER, insecureReason: "This operation is safe to expose to all logged in users.") {
+  users {
+    id
+    email
+    firstName
+    lastName
+  }
+}
+
+mutation UpdateUser($id: UUID!) @auth(level: USER) {
+  user_update(
+    key: { id: $id }
+    data: {
+      firstName: "Updated"
+      lastName: "User"
+    }
+  )
+}
+
+mutation DeleteInactiveUsers @auth(level: NO_ACCESS) {
+  user_deleteMany(where: { isActive: { eq: false } })
+}

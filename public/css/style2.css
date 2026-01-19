@@ -1,0 +1,58 @@
+.h1-user1 {
+    font-family: 'myFont';
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    text-shadow: 0px 0px 20px black;
+}
+
+.margindiv {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #cfa01d;
+    border: solid 9px #8b691d;
+    border-radius: 15px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+
+a.link1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #49af49;
+    border: solid 9px #3d7b29;
+    border-radius: 15px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+
+a.link2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.login-div {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,166 @@
+.body-img1 {
+    background-image: url('https://i.ibb.co/sJz7B54X/gradetwomathbg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.admindiv1 {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 17px black;
+    text-shadow: 0 0 7px black;
+}
+
+.img1 {
+    width: 250px;
+    height: 250px;
+}
+
+.adminlink1 {
+    background: #2a9345;
+    font-size: 29px;
+    border-radius: 17px;
+    border: solid 9px #255726;
+    box-shadow: 0 0 17px black;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: .2s ease transform;
+}
+
+.adminlink1:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+a.adminlink1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #ffffff;
+    background: #4e4ebb;
+    border: solid 9px #393977;
+}
+
+.adminlink2 {
+    font-size: 30px;
+}
+
+.adminlink3 {
+    font-size: 30px;
+}
+
+.adminlink4 {
+    font-size: 30px;
+}
+
+.admindiv2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.h1-admin {
+    width: 500px;
+}
+
+.img1-admin {
+    width: 300px;
+    height: 300px;
+}
+
+.create {
+    text-align: center;
+    box-shadow: 0 0 17px black;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 50px;
+}
+
+.design {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 14px 0px #000000;
+    color: black;
+    border: solid 5px #656565;
+}
+
+.exitbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px gray;
+    border: 10px;
+    border: solid 11px #2d612e;
+    color: white;
+    background:  #dbc03c;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 300px;
+}
+
+.deletebutton {
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-color: black;
+}
+
+.button-div {
+    text-align: center;
+}
+
+.index-div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.index-table {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 0 17px black;
+    background-color: rgb(125, 177, 255);
+}
+
+.studentlogin {
+    text-align: center;
+    box-shadow: 0 0 17px black;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.student-div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.studentlogintitle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.username {
+    border-color: black;
+    background-color: #2d612e;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    font-size: 200%;
+    width: fit-content;
+}

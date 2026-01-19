@@ -1,0 +1,60 @@
+mutation CreateDemoData @transaction @auth(level: PUBLIC, insecureReason: "This operation is used to seed the database with example data. Avoid using variables. Use hardcoded literals instead.") {
+  user_insertMany(data: [
+    {
+      id: "550e8400-e29b-41d4-a716-446655440000",
+      email: "demouser1@example.com",
+      passwordHash: "hashed_password_1",
+      createdAt: "2024-04-01T00:00:00Z",
+      firstName: "Demo",
+      lastName: "User1",
+      isActive: true,
+      lastLoginAt: "2024-04-01T00:00:00Z"
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440001",
+      email: "demouser2@example.com",
+      passwordHash: "hashed_password_2",
+      createdAt: "2024-04-01T00:00:00Z",
+      firstName: "Demo",
+      lastName: "User2",
+      isActive: false,
+      lastLoginAt: "2024-04-01T00:00:00Z"
+    }
+  ])
+  session_insertMany(data: [
+    {
+      id: "650e8400-e29b-41d4-a716-446655440000",
+      userId: "550e8400-e29b-41d4-a716-446655440000",
+      createdAt: "2024-04-01T00:00:00Z",
+      expiresAt: "2024-04-02T00:00:00Z",
+      token: "session_token_1",
+      ipAddress: "127.0.0.1",
+      userAgent: "Chrome"
+    },
+    {
+      id: "650e8400-e29b-41d4-a716-446655440001",
+      userId: "550e8400-e29b-41d4-a716-446655440001",
+      createdAt: "2024-04-01T00:00:00Z",
+      expiresAt: "2024-04-02T00:00:00Z",
+      token: "session_token_2",
+      ipAddress: "127.0.0.1",
+      userAgent: "Firefox"
+    }
+  ])
+  passwordResetToken_insertMany(data: [
+    {
+      id: "750e8400-e29b-41d4-a716-446655440000",
+      userId: "550e8400-e29b-41d4-a716-446655440000",
+      createdAt: "2024-04-01T00:00:00Z",
+      expiresAt: "2024-04-02T00:00:00Z",
+      token: "reset_token_1"
+    },
+    {
+      id: "750e8400-e29b-41d4-a716-446655440001",
+      userId: "550e8400-e29b-41d4-a716-446655440001",
+      createdAt: "2024-04-01T00:00:00Z",
+      expiresAt: "2024-04-02T00:00:00Z",
+      token: "reset_token_2"
+    }
+  ])
+}

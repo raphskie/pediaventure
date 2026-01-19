@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'custom1';
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-left {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+a.header-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 8%;
+    display: block;
+    transition: transform .2s ease;
+}
+
+a.header-button:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    padding-left: 41px;
+    padding-right: 41px;
+    display: flex;
+    position: fixed;
+}
+
+a.msg-next-lvl {
+    position: relative;
+    top: 68%;
+    left: 72%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #419b41;
+    border: 7px solid #287a36;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+a.msg-back {display: grid;height: 0px;z-index: 9999;position: relative;margin-left: 62%;}
+
+.img-msg {
+    margin-left: 44%;
+    margin-right: auto;
+    display: flex;
+    width: 30%;
+    margin-top: 11%;
+    transition: transform .2s ease;
+    position: relative;
+    z-index: 9999;
+}
+
+img.img-msg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+h1 {
+    width: 69%;
+    font-size: 22px;
+    margin: 35px;
+    font-family: 'custom2';
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 17px black;
+}
+
+.instruction-container {
+    display: flex;
+    margin: 2%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button.audio-button {
+  width: 29%;
+  height: 8vw;
+  border: 9px solid #4d6cb3;
+  background: #367dff52;
+  border-radius: 80px;
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  transition: transform .2s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.audio-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    margin: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+button.choice {
+    width: 20%;
+    height: 18vw;
+    border: 9px solid #354d85;
+    background: #4b8aff6e;
+    border-radius: 100%;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    transition: transform .2s ease;
+}
+
+button.choice:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url('../bgs/tempbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+  font-family: 'custom1';
+  src: url("../fonts/raleway.ttf");
+}
+@font-face {
+  font-family: 'custom2';
+  src: url("../fonts/KidsMagazine.ttf");
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  display: none;
+}
+#wrongAns {
+  background-color: red;
+}
+#correctAns {
+  background-color: blue;
+}
+ #redCircle {
+      background-image: url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg.png');
+    }
+
+    #blueCircle {
+      background-image: url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg.png');
+    }
+
+

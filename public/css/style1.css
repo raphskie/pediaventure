@@ -1,0 +1,143 @@
+* {
+    padding: 11px;
+    font-family: "myFont";
+    color: white;
+}
+
+* {
+    padding: 11px;
+    font-family: "myFont2";
+    color: white;
+}
+
+.body-img {
+    background-image: url('https://i.ibb.co/JwVWJxqF/bg1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.body-img1 {
+    background-image: url('https://i.ibb.co/sJz7B54X/gradetwomathbg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card-div {
+    border: hidden;
+    margin-top: -10%;
+}
+
+.imgdiv1 {
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("http://127.0.0.1:8000/fonts/KidsMagazine.ttf");
+}
+@font-face {
+    font-family: "myFont2";
+    src: url("http://127.0.0.1:8000/fonts/hc.ttf");
+}
+
+.border1 {
+    border: gray 2px solid;
+    box-shadow: 0px 0px 10px black;
+    background-color: whitesmoke;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.h1-home {
+    text-align: center;
+    font-family: 'myFont';
+    font-size: 25px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.h1-home2 {
+    text-align: center;
+    font-family: 'myFont';
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.h1-home3 {
+    text-align: center;
+    font-family: 'myFont';
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.div1 {
+    background-attachment: fixed;
+    margin-top: 1%;
+
+}
+
+.div2 {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 0px 0px 8px black;
+}
+
+.p2 {
+    text-align: center;
+    font-family: 'myFont2';
+    font-size: 25px;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+.p3 {
+    text-align: center;
+    font-family: 'myFont2';
+    font-size: 25px;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+.border2 {
+    background-image: url('https://i.ibb.co/dwt91x9C/achievementsbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0px 0px 10px black;
+    border: gray 2px solid;
+}
+
+.border3 {
+    background: #7fc38a;
+    border: 15px solid #304731;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.proceed1 {
+    background: #328b32;
+    font-family: 'myFont';
+    border-radius: 21px;
+    border: solid 7px #174e1c;
+    margin: 10px;
+    display: flex;
+    width: 33%;
+    padding: 18px;
+    justify-content: center;
+    transition: transform .2s ease;
+    text-decoration: none;
+    color: white;
+}
+
+a.proceed1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}

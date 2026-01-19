@@ -1,0 +1,73 @@
+.logo-div {
+    margin: auto;
+}
+
+.h1-login {
+    text-shadow: 0px 0px 15px black;
+    margin-top: -40px;
+}
+
+.h1-studentlogin {
+    text-shadow: 0px 0px 15px black;
+    margin-top: -40px;
+}
+
+.login-input {
+    width: 57vh;
+    font-size: 19px;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 11px;
+    border: solid 4px #4b9b02;
+    color: black;
+    transition: transform .2s ease;
+}
+
+.login-submit {
+    background-color: #a3ffa2;
+    color: #248b28;
+    font-weight: 600;
+    width: 57vh;
+    font-size: 19px;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 11px;
+    transition: transform .2s ease;
+    border: solid 4px #4b9b02;
+}
+
+.login-signup {
+    background-color: #4cce50;
+    color: #248b28;
+    width: 40vh;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 11px;
+    transition: transform .2s ease;
+    border: solid 4px #4b9b02;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+a.login-signup:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}
+
+.login-submit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #248b28;
+}
+
+.login-signup-div {
+    width: 50px;
+    text-align: center;
+}

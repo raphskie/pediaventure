@@ -1,0 +1,25 @@
+<!--
+<div class="container-login">
+    <img class="login-logo-center" src="{{ asset('imgs/logo.png') }}">
+    <h1 class="h1-center">LOGIN TO PEDIAVENTURE</h1>
+
+    <form method="POST" action="{{ route('login.process') }}" style="display:flex; flex-direction:column; gap:10px;">
+        @csrf
+
+        <input class="login-register-input" type="email" name="email" placeholder="Email" required>
+        <input class="login-register-input" type="password" name="password" placeholder="Password" required>
+
+        @if(session('error'))
+            <p style="color:red; font-size:14px;">{{ session('error') }}</p>
+        @endif
+
+        <a href="register" class="centered-a green-a button-a" style="text-align:center;">Create A New Account</a>
+
+        <input class="login-register-input" type="submit"
+               value="Submit"
+               style="background-color:#a3ffa2;color:#248b28;font-weight:600;">
+    </form>
+
+</div>
+
+-->
