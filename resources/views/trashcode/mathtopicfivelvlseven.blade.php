@@ -5,7 +5,7 @@
 @section('body-class', 'grade-two-math')
 @section('content')
    
-  <audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
+  <audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
 
   <div class="instruction-container" style="
     margin-top: 3%;
@@ -27,7 +27,7 @@
     <button class="balloon-choice" onclick="showCircle('red')">400</button>
     <button class="balloon-choice" onclick="showCircle('red')">500</button>
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
   </div>
 
   <div class="div-choices3 float1">
@@ -36,7 +36,7 @@
     <button class="balloon-choice" onclick="showCircle('red')">800</button>
     <button class="balloon-choice" onclick="showCircle('red')">900</button>
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
   </div>
       
       <div id="redCircle" class="msg" style="display: none; position: fixed;">

@@ -52,7 +52,7 @@
                                 <p class="p3">We are eager to provide your child/student an exciting learning environment. Join us now by clicking the "Proceed" button!</p>
 
                                 <div class="div2">
-                                    <a class="proceed1" href="http://127.0.0.1:8000/user">PROCEED</a>
+                                    <a class="proceed1" href="user">PROCEED</a>
                                 </div>
 
                             </div>
@@ -68,3 +68,4 @@
 
 
 @endsection
+

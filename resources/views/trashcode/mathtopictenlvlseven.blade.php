@@ -5,7 +5,7 @@
 @section('body-class', 'grade-two-math')
 @section('content')
    
-  <audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
+  <audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
 
   <div class="instruction-container">
     <h1 class="h1-instruction" style="
@@ -25,7 +25,7 @@
     <button class="balloon-choice" onclick="showCircle('red')">5</button>
     <button class="balloon-choice" onclick="showCircle('red')">8</button>
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
   </div>
 
   <div class="div-choices3 float2">
@@ -35,14 +35,14 @@
     <button class="balloon-choice" onclick="showCircle('red')">11</button>
     <button class="balloon-choice" onclick="showCircle('red')">15</button>
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
   </div>
       
-      <div id="redCircle" class="msg" style="display: none; position: fixed; background-image: url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg.png')">
+      <div id="redCircle" class="msg" style="display: none; position: fixed; background-image: url('/imgs/dialogs/wrong-ans-msg.png')">
         <span class="close-btn" onclick="closeMsg('redCircle')">❌</span>
       </div>
 
-      <div id="blueCircle" class="msg" style="display: none; position: fixed; background-image: url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg.png">
+      <div id="blueCircle" class="msg" style="display: none; position: fixed; background-image: url('/imgs/dialogs/correct-ans-msg.png">
         <button class="next-btn" onclick="nextLevel()">NEXT LEVEL</button>
       </div>
       

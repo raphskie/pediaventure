@@ -5,7 +5,7 @@
 @section('body-class', 'grade-one-english')
 @section('content')
     
-<audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
+<audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
 
   <div class="instruction-container">
     <h1 class="h1-instruction">ANG <u>OSO</u> AY TUMATAHOL NG MALAKAS. ANG NAKULAYANG SALITA AY ALIN
@@ -16,7 +16,7 @@
     <button class="choice" onclick="showCircle('blue')">Patinig</button>
     <button class="choice" onclick="showCircle('red')">Katinig</button>
     
-    <audio id="pop" class="sfx" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" class="sfx" src="/audios/pop.mp3"></audio>
 
     <div id="redCircle" class="msg" style="display: none; position: fixed;">
       <span class="close-btn" onclick="closeMsg('redCircle')">❌</span>

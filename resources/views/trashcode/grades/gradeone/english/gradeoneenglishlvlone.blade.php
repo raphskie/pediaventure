@@ -7,11 +7,11 @@
   <title>Level 1 | Grade 1 English | PEDIAVENTURE</title>
 </head>
 <body class="grade-one-english">
-  <audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay loop></audio>
+  <audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay loop></audio>
 
   <div class="instruction-container">
     <button class="audio-button" onclick="playSound()">
-      <img src="http://127.0.0.1:8000/imgs/speaker.png" style="width: 16%;">
+      <img src="/imgs/speaker.png" style="width: 16%;">
     </button>
     <h1 class="h1-instruction">
       HOW IS THE WORD SPELLED BASED ON THE AUDIO? CHOOSE THE CORRECT SPELLING BELOW.
@@ -23,7 +23,7 @@
     <button class="choice" onclick="showCircle('blue')">Walking</button>
     <button class="choice" onclick="showCircle('red')">Wuking</button>
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
 
     <div id="redCircle" class="msg" style="display: none; position: fixed;">
       <span class="close-btn" onclick="closeMsg('redCircle')">❌</span>
@@ -55,7 +55,7 @@
     }
 
     function playSound() {
-      let audio = new Audio('http://127.0.0.1:8000/audios/gradeoneenglish/1.mp3');
+      let audio = new Audio('/audios/gradeoneenglish/1.mp3');
       audio.play();
     }
 
@@ -66,3 +66,4 @@
 
 </body>
 @endsection
+

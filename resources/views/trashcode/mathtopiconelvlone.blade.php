@@ -5,7 +5,7 @@
 @section('body-class', 'placevalues-body')
 @section('content')
    
-<audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
+<audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
 
   <div class="instruction-container" style="
     margin-top: 3%;
@@ -17,7 +17,7 @@
         margin-top: 0%;
         line-height: 36px;
         font-weight: 100;
-        background-image: url('http://127.0.0.1:8000/imgs/sign2.png');
+        background-image: url('/imgs/sign2.png');
         background-size: cover;
         background-position: center;
         height: 18vh;
@@ -33,38 +33,38 @@
 
   <div class="div-choices3 float1">
       <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/1.png');
+        background-image: url('/imgs/birds/1.png');
       "></button> <!-- Millions -->
         <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/2.png');
+        background-image: url('/imgs/birds/2.png');
     "></button> <!-- Hundred Thousands -->
         <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/3.png');
+        background-image: url('/imgs/birds/3.png');
     "></button> <!-- Ten Thousands -->
       <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/4.png');
+        background-image: url('/imgs/birds/4.png');
     "></button> <!-- Thousands -->
     
-    <audio id="pop" src="http://127.0.0.1:8000/audios/pop.mp3"></audio>
+    <audio id="pop" src="/audios/pop.mp3"></audio>
   </div>
 
   <div class="div-choices3 float2">
     <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/5.png');
+        background-image: url('/imgs/birds/5.png');
     "></button> <!-- Hundreds -->
     <button class="bird-choice" onclick="showCircle('blue')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/6.png');
+        background-image: url('/imgs/birds/6.png');
     "></button> <!-- Tens -->
     <button class="bird-choice" onclick="showCircle('red')" style="
-        background-image: url('http://127.0.0.1:8000/imgs/birds/7.png');
+        background-image: url('/imgs/birds/7.png');
     "></button> <!-- Ones --> 
   </div> 
       
-      <div id="redCircle" class="msg" style="display: none; position: fixed; background-image: url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg.png')">
+      <div id="redCircle" class="msg" style="display: none; position: fixed; background-image: url('/imgs/dialogs/wrong-ans-msg.png')">
         <span class="close-btn" onclick="closeMsg('redCircle')">❌</span>
       </div>
 
-      <div id="blueCircle" class="msg" style="display: none; position: fixed; background-image: url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg.png">
+      <div id="blueCircle" class="msg" style="display: none; position: fixed; background-image: url('/imgs/dialogs/correct-ans-msg.png">
         <button class="next-btn" onclick="nextLevel()">NEXT LEVEL</button>
       </div>
       

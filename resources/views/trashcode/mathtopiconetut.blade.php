@@ -20,7 +20,7 @@
         the correct answer from the birds below. Remember that the first digit starts with ones, the second
         digit is tens, the third digit is hundreds, the fourth digit is thousands, and so on. Go, adventurer!</p>
 
-        <img src="http://127.0.0.1:8000/imgs/tutorials/mathone.png" class="img-tutorial">
+        <img src="/imgs/tutorials/mathone.png" class="img-tutorial">
         <a href="mathtopiconelevels" class="home-log-reg" style="
             width: 46%;
             margin-left: auto;

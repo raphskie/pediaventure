@@ -1,11 +1,11 @@
 <html><head>
         <title>Settings | PEDIAVENTURE</title>
-        <link rel="stylesheet" href="http://127.0.0.1:8000/css/overallcss.css">
+        <link rel="stylesheet" href="/css/overallcss.css">
     </head>
-    <body class="login" style="background-image: url('http://127.0.0.1:8000/bgs/gradetwomathbg.png');">
+    <body class="login" style="background-image: url('/bgs/gradetwomathbg.png');">
         <div class="nav-left">
                 <a class="nav-item" href="javascript:history.back()">
-                    <img class="nav-img" src="http://127.0.0.1:8000/imgs/back-button.png" style="transform: scaleX(-1);width: 7%;">
+                    <img class="nav-img" src="/imgs/back-button.png" style="transform: scaleX(-1);width: 7%;">
                 </a>
             </div>
         <div class="container-login">
@@ -66,3 +66,4 @@
 
 
 </body></html>
+

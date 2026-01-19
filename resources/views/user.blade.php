@@ -9,11 +9,11 @@
         </div>
 
         <div class="w-50 mx-auto">
-            <a href="http://127.0.0.1:8000/userlogin" class="link1 btn btn-outline w-100">TEACHER/ADMIN</a>
+            <a href="userlogin" class="link1 btn btn-outline w-100">TEACHER/ADMIN</a>
         </div>
 
         <div class="w-50 mx-auto">
-            <a href="http://127.0.0.1:8000/student_login" class="link2 btn btn-outline w-100">STUDENT</a>
+            <a href="student_login" class="link2 btn btn-outline w-100">STUDENT</a>
         </div>
 
     </div>
@@ -36,3 +36,4 @@
 -->
 
 @endsection
+

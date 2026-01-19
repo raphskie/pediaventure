@@ -45,7 +45,7 @@
             <h1 class="">Lessons and Games</h1>
             <p class="">Combines learning materials and interactive games <br>to enhance student engagement and understanding.</p>
             <div class="admindiv2">
-            <a href="http://127.0.0.1:8000/student-panel" class="adminlink1 w-100 h-25">Lessons and Games</a>
+            <a href="/student-panel" class="adminlink1 w-100 h-25">Lessons and Games</a>
         </div>
     </div>
 
@@ -74,4 +74,5 @@
 </div>
 
 <script type="module" src="{{ asset('js/login.js') }}" defer></script>
+
 

@@ -5,7 +5,7 @@
 @section('body-class', 'grade-two-math')
 @section('content')
 
-<audio id="bgMusic" src="http://127.0.0.1:8000/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
+<audio id="bgMusic" src="/audios/spelling-bg1.mp3" autoplay="" loop=""></audio>
 
   <div class="instruction-container">
     <h1 class="h1-instruction" style="
@@ -56,14 +56,14 @@
 
 <div id="blueCircle" class="msg"
      style="display:none; position:fixed;
-     background-image:url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg.png');">
+     background-image:url('/imgs/dialogs/correct-ans-msg.png');">
   <button class="next-btn" onclick="nextLevel()">NEXT LEVEL</button>
 </div>
 
 
 <div id="redCircle" class="msg"
      style="display:none; position:fixed;
-     background-image:url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg.png');">
+     background-image:url('/imgs/dialogs/wrong-ans-msg.png');">
   <span class="close-btn" onclick="closeMsg('redCircle')">❌</span>
 </div>
       

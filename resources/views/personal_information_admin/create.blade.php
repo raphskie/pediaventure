@@ -41,3 +41,4 @@
 <script type="module" src="{{ asset('js/login.js') }}" defer></script>
 
 @endsection
+
