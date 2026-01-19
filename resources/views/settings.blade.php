@@ -1,11 +1,11 @@
 <html><head>
         <title>Settings | PEDIAVENTURE</title>
-        <link rel="stylesheet" href="/css/overallcss.css">
+        <link rel="stylesheet" href="{{ asset('css/overallcss.css') }}">
     </head>
-    <body class="login" style="background-image: url('/bgs/gradetwomathbg.png');">
+    <body class="login" style="background-image: url('{{ asset('bgs/gradetwomathbg.png') }}');">
         <div class="nav-left">
                 <a class="nav-item" href="javascript:history.back()">
-                    <img class="nav-img" src="/imgs/back-button.png" style="transform: scaleX(-1);width: 7%;">
+                    <img class="nav-img" src="{{ asset('imgs/back-button.png') }}" style="transform: scaleX(-1);width: 7%;">
                 </a>
             </div>
         <div class="container-login">
