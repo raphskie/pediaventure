@@ -35,11 +35,11 @@
 
 @font-face {
     font-family: "myFont";
-    src: url("http://127.0.0.1:8000/fonts/KidsMagazine.ttf");
+    src: url("/fonts/KidsMagazine.ttf");
 }
 @font-face {
     font-family: "myFont2";
-    src: url("http://127.0.0.1:8000/fonts/hc.ttf");
+    src: url("/fonts/hc.ttf");
 }
 
 .border1 {

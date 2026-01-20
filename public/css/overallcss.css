@@ -36,7 +36,7 @@ img.fraction-img {
 }
 
 .placevalues-body {
-    background-image: url('http://127.0.0.1:8000/bgs/bg1.png');
+    background-image: url('/bgs/bg1.png');
 }
 
 u {
@@ -46,7 +46,7 @@ u {
 }
 
 body.grade-two-english {
-    background-image: url('http://127.0.0.1:8000/bgs/filipinobg.jpg');
+    background-image: url('/bgs/filipinobg.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -74,11 +74,11 @@ body.grade-two-english {
 .topic-flex {display: flex;flex-direction: column;justify-content: center;flex-wrap: wrap;align-content: center;background: #ffd697;border-radius: 50px;border: solid #6b4223 11px;box-shadow: 0px 0px 20px black;}
 
 body.topic-container {
-    background-image: url('http://127.0.0.1:8000/bgs/gradetwomathbg.png');
+    background-image: url('/bgs/gradetwomathbg.png');
 }
 
 .topics-container {
-    background-image: url('http://127.0.0.1:8000/bgs/gradetwomathbg.png');
+    background-image: url('/bgs/gradetwomathbg.png');
     background-size: cover;
 }
 
@@ -163,7 +163,7 @@ a.a-hard-levels:hover {transform: scale(1.1);}
 
 h1.h1-home-left {
     text-shadow: 0px 0px 20px black;
-    background-image: url('http://127.0.0.1:8000/imgs/sign.png');
+    background-image: url('/imgs/sign.png');
     background-size: 99%;
     background-repeat: no-repeat;
     padding: 66px;
@@ -172,7 +172,7 @@ h1.h1-home-left {
 }
 h1.h1-home-right {
     text-shadow: 0px 0px 20px black;
-    background-image: url('http://127.0.0.1:8000/imgs/sign.png');
+    background-image: url('/imgs/sign.png');
     background-size: 99%;
     background-repeat: no-repeat;
     padding: 66px;
@@ -221,7 +221,7 @@ h1.h1-home {
 }
 
 .home3 {
-    background-image: url('http://127.0.0.1:8000/bgs/gradetwomathbg.png');
+    background-image: url('/bgs/gradetwomathbg.png');
     border-radius: 10px;
     border: 15px solid #d3a964;
     z-index: 9999;
@@ -398,7 +398,7 @@ a.account-inf-a:hover {
 }
 
 .body-home {
-    background-image: url('http://127.0.0.1:8000/bgs/bg1.png');
+    background-image: url('/bgs/bg1.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -407,13 +407,13 @@ a.account-inf-a:hover {
 .home1 {display: flex;align-content: center;justify-content: center;flex-wrap: nowrap;flex-direction: row;align-items: center;}
 
 body.grade-two-math {
-    background-image: url('http://127.0.0.1:8000/bgs/gradetwomathbg.png');
-    cursor: url('http://127.0.0.1:8000/imgs/balloon-target.png') 10 5, auto;
+    background-image: url('/bgs/gradetwomathbg.png');
+    cursor: url('/imgs/balloon-target.png') 10 5, auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .grade-one-math {
-    background-image: url('http://127.0.0.1:8000/bgs/bg1.png');
+    background-image: url('/bgs/bg1.png');
     background-attachment: fixed;
     background-size: 100%;
     background-position: center;
@@ -421,7 +421,7 @@ body.grade-two-math {
 
 .balloon-choice {
     background-color: transparent;
-    background-image: url('http://127.0.0.1:8000/imgs/balloon.png');
+    background-image: url('/imgs/balloon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -440,7 +440,7 @@ body.grade-two-math {
 
 .inanimated-choice {
     background-color: transparent;
-    background-image: url('http://127.0.0.1:8000/imgs/balloon.png');
+    background-image: url('/imgs/balloon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -464,7 +464,7 @@ body.grade-two-math {
 
 .bird-choice {
     background-color: transparent;
-    background-image: url('http://127.0.0.1:8000/imgs/balloon.png');
+    background-image: url('/imgs/balloon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -526,7 +526,7 @@ button.balloon-choice:hover {
     animation: floatUpDown2 3s ease-in-out infinite;
 }
 
-body.twopicsoneword-container {background-image: url('http://127.0.0.1:8000/bgs/filipinobg.jpg');background-size: cover;background-repeat: no-repeat;}
+body.twopicsoneword-container {background-image: url('/bgs/filipinobg.jpg');background-size: cover;background-repeat: no-repeat;}
 
 .twopicsoneword {
     width: 19%;
@@ -603,7 +603,7 @@ span.close-btn:hover {
 
 button.choice {
     width: 290px;
-    background-image: url('http://127.0.0.1:8000/imgs/bubble.png');
+    background-image: url('/imgs/bubble.png');
     background-size: cover;
     background-color: transparent;
     border: none;
@@ -666,7 +666,7 @@ button.audio-button:hover {
 }
 
 body.grade-one-english {
-    background-image: url('http://127.0.0.1:8000/bgs/tempbg.jpg');
+    background-image: url('/bgs/tempbg.jpg');
     background-attachment: fixed;
     background-size: 100%;
     background-position: center;
@@ -679,7 +679,7 @@ body.grade-one-english {
   transform: translate(-50%, -50%);
   width: 83%;
   aspect-ratio: 1 / 1;
-  background-image: url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg-fil.png');
+  background-image: url('/imgs/dialogs/wrong-ans-msg-fil.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -694,7 +694,7 @@ body.grade-one-english {
       transform: translate(-50%, -50%);
       width: 83%;
       aspect-ratio: 1 / 1;
-      background-image: url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg-fil.png');
+      background-image: url('/imgs/dialogs/correct-ans-msg-fil.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -836,7 +836,7 @@ p.level-number {
 
 .level-button {
     width: 21%;
-    background-image: url('http://127.0.0.1:8000/imgs/level-rock.png');
+    background-image: url('/imgs/level-rock.png');
     background-size: 100%;
     border-radius: 16px;
     margin-left: 25px;
@@ -1023,23 +1023,23 @@ img.login-logo-center {
 }
 
 body.login {
-    background-image: url('http://127.0.0.1:8000/bgs/bg1.png');
+    background-image: url('/bgs/bg1.png');
     background-size: cover;
     background-attachment: fixed;
 }
 body.levels {
-    background-image: url('http://127.0.0.1:8000/bgs/bg2.png');
+    background-image: url('/bgs/bg2.png');
     background-size: 100%;
     display: flex;
     flex-direction: column;
 }
 @font-face {
     font-family: "myFont";
-    src: url("http://127.0.0.1:8000/fonts/KidsMagazine.ttf");
+    src: url("/fonts/KidsMagazine.ttf");
 }
 @font-face {
     font-family: "myFont2";
-    src: url("http://127.0.0.1:8000/fonts/hc.ttf");
+    src: url("/fonts/hc.ttf");
 }
 @keyframes bubbleFloat {
     0% {

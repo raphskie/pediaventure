@@ -159,11 +159,11 @@ body {
   background-color: blue;
 }
  #redCircle {
-      background-image: url('http://127.0.0.1:8000/imgs/dialogs/wrong-ans-msg.png');
+      background-image: url('/imgs/dialogs/wrong-ans-msg.png');
     }
 
     #blueCircle {
-      background-image: url('http://127.0.0.1:8000/imgs/dialogs/correct-ans-msg.png');
+      background-image: url('/imgs/dialogs/correct-ans-msg.png');
     }
 
 
