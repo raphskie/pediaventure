@@ -302,6 +302,9 @@ Route::get('/mathtopic{level}lvl{sublevel}', function ($level, $sublevel) {
     abort(404);
 })->where(['level' => '[a-z]+', 'sublevel' => '[a-z]+']);
 
+// Firebase OAuth Routes
+require __DIR__ . '/firebase-auth.php';
+
 // Fallback for undefined routes
 Route::fallback(function () {
     abort(404);

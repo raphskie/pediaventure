@@ -4,6 +4,20 @@ declare(strict_types=1);
 
 return [
     /*
+     * Firebase OAuth Configuration
+     */
+    'api_key' => env('FIREBASE_API_KEY'),
+    'auth_domain' => env('FIREBASE_AUTH_DOMAIN'),
+    'project_id' => env('FIREBASE_PROJECT_ID'),
+    'storage_bucket' => env('FIREBASE_STORAGE_BUCKET'),
+    'messaging_sender_id' => env('FIREBASE_MESSAGING_SENDER_ID'),
+    'app_id' => env('FIREBASE_APP_ID'),
+    'measurement_id' => env('FIREBASE_MEASUREMENT_ID', ''),
+    'authorized_domains' => array_filter(
+        array_map('trim', explode(',', env('AUTHORIZED_OAUTH_DOMAINS', '')))
+    ),
+
+    /*
      * ------------------------------------------------------------------------
      * Default Firebase project
      * ------------------------------------------------------------------------

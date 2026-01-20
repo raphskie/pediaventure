@@ -29,11 +29,22 @@ class User extends Authenticatable
     protected $fillable = [
         'id', // Student ID
         'mname', // Hashed Middle Name
+        'firebase_uid', // Firebase UID for OAuth
+        'name', // Display Name
+        'email', // Email address
+        'profile_picture', // Profile picture URL
+        'is_firebase_user', // Flag for Firebase authentication
+        'last_login_at', // Last login timestamp
     ];
 
     protected $hidden = [
         'mname',
         'remember_token',
+    ];
+
+    protected $casts = [
+        'is_firebase_user' => 'boolean',
+        'last_login_at' => 'datetime',
     ];
 
 }
