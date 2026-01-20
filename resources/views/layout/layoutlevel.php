@@ -9,7 +9,6 @@
     <div class="nav-left">
 
 
-            <a class="nav-item" href="achievements"><img class="nav-img" src="{{ asset('imgs/achievements-button.png') }}"></a>
             <a class="nav-item" href="javascript:history.back()"><img class="nav-img" src="{{ asset('imgs/back-button.png') }}" style="transform: scaleX(-1);">
 </a>
     </div>

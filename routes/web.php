@@ -7,6 +7,8 @@ use App\Http\Controllers\LeaderboardController;
 use App\Http\Controllers\FilipinoTopicController;
 use App\Http\Controllers\EnglishTopicController;
 use App\Http\Controllers\MathTopicController;
+use App\Http\Controllers\AccinfController;
+use App\Http\Controllers\StudentPanelController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
@@ -47,8 +49,8 @@ Route::get('/index', [DashboardController::class, 'show_index']);
 Route::get('/student_login', [DashboardController::class, 'student_login']);
 Route::get('/records', [PersonalInformationController::class, 'index']);
 
-// Panel Routes  
-Route::get('/student-panel', [App\Http\Controllers\StudentPanelController::class, 'index'])
+// Panel Routes
+Route::get('/student-panel', [StudentPanelController::class, 'index'])
     ->middleware('auth')->name('student.panel');
 
 Route::get('/teacher-panel', [App\Http\Controllers\TeacherPanelController::class, 'index'])
@@ -87,8 +89,10 @@ Route::get('/settings', function () {
     return view('settings');
 });
 
-Route::get('/achievements', function () {
-    return view('achievements');
+Route::middleware('auth')->group(function () {
+    Route::get('/accinf', [AccinfController::class, 'index'])->name('accinf.index');
+    Route::get('/accinf/edit', [AccinfController::class, 'edit'])->name('accinf.edit');
+    Route::post('/accinf', [AccinfController::class, 'update'])->name('accinf.update');
 });
 
 // Award Points Route (Points system)
