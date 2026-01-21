@@ -35,6 +35,11 @@
   <div class="login-signup-div w-100">
   <button type="submit" style="background-color: #a3ffa2; color: #248b28; font-weight: 600; padding: 13px; border-radius: 11px; border: solid 4px #4b9b02; width: 100%; max-width: 300px; margin: 0 auto; display: block;">Log in</button>
 
+    </div>
+<div class="login-signup-div w-100">
+  <a href="/user" style="background-color: #a3ffa2; color: #248b28; font-weight: 600; padding: 13px; border-radius: 11px; border: solid 4px #4b9b02; width: 100%; max-width: 300px; margin: 0 auto; display: block; text-align: center; text-decoration: none;">Back to User Selection</a>
+
+</div>
 </form>
 
 <script>
