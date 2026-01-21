@@ -20,7 +20,7 @@
         </nav>
         @endunless
 
-        @yield('content')
+        @yield('subselcontent')
     </body>
 </html>
 

@@ -1,9 +1,9 @@
-@extends('layout.layout')
+@extends('layout.subsellayout')
 
 @section('back-link', 'login')
 @section('title', 'Subject Selection | PEDIAVENTURE')
 @section('body-class', 'login')
-@section('content')
+@section('subselcontent')
 
     <div class="container-login">
         <a href="settings">

@@ -12,7 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('personal_information_admin', function (Blueprint $table) {
-            $table->string('created_by')->nullable();
+            if (!Schema::hasColumn('personal_information_admin', 'created_by')) {
+                $table->string('created_by')->nullable();
+            }
         });
     }
 
