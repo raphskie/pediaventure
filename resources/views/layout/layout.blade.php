@@ -11,7 +11,7 @@
 
         @unless (View::hasSection('hide-navbar'))
         <nav>
-            <a class="nav-item" href="javascript:history.back()"><img class="nav-img" src="{{ asset('imgs/back-button.png') }}" style="transform: scaleX(-1);">
+            <a class="nav-item" href="student-panel"><img class="nav-img" src="{{ asset('imgs/back-button.png') }}" style="transform: scaleX(-1);">
 </a>
 
             <a class="nav-item" href="settings" style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; align-content: center; align-items: center;">

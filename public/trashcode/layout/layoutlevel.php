@@ -9,7 +9,7 @@
 
 
             <a class="nav-item" href="achievements"><img class="nav-img" src="{{ asset('imgs/achievements-button.png') }}"></a>
-            <a class="nav-item" href="education"><img class="nav-img" src="{{ asset('imgs/back-button.png') }}" <="" a="" style="transform: scaleX(-1);">
+            <a class="nav-item" href="education"><img class="nav-img" src="{{ asset('imgs/back-button.png') }}" style="transform: scaleX(-1);">
 </a>
     </div>
     <a class="nav-item" href="settings" style="
