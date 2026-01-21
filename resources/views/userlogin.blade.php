@@ -27,6 +27,10 @@
         <a href="signup" class="login-signup btn">Create A New Account</a>
   </div>
 
+  <div class="login-signup-div w-100">
+  <button type="button" onclick="history.back()" style="background-color: #a3ffa2; color: #248b28; font-weight: 600; padding: 13px; border-radius: 11px; border: solid 4px #4b9b02; width: 100%; max-width: 300px; margin: 0 auto; display: block;">Back To Previous Page</button>
+
+</div>
 </form>
 
 @endsection
