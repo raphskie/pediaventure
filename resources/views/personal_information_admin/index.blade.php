@@ -16,6 +16,7 @@
 
     <table class="index-table" border="1" cellpadding="10">
         <tr>
+            <th>No.</th>
             <th>ID</th>
             <th>Last Name</th>
             <th>First Name</th>
@@ -29,8 +30,9 @@
             <th>Action</th> {{-- Added header for the Delete button --}}
         </tr>
 
-        @foreach($records as $row)
+        @foreach($records as $key => $row)
         <tr>
+            <td>{{ $key + 1 }}</td>
             <td>{{ $row->id }}</td>
             <td>{{ $row->lname }}</td>
             <td>{{ $row->fname }}</td>
