@@ -1,19 +1,8 @@
 @extends('layout.layoutmislan')
 @section('content')
 
-    <div class="container w-auto h-auto">
-        <div class="container imgdiv1 d-flex w-120 h-120">
-            <div class="justify-content-center">
-                <img src="https://i.ibb.co/wZ1CKM7P/0006.png" class="img-fluid">
-            </div>
 
-            <div class="justify-content-center mt-5">
-                <img src="https://i.ibb.co/0R8dT2QJ/0008.png" class="img-fluid">
-            </div>
-        </div>
-
-
-<div class="card-div container justify-content-center d-block">
+<div class="card-div container justify-content-center d-block mt-5">
                     <div class="card container justify-content-center cd1 border1">
                         <div class="div1 w-120 h-25 mx-auto position-relative">
                         <img src="https://i.ibb.co/W4bLDNKJ/sign.png" class="img-fluid mx-auto imgdiv1">
