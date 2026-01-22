@@ -17,7 +17,7 @@
     <table class="index-table" border="1" cellpadding="10">
         <tr>
             <th>No.</th>
-            <th>ID</th>
+            <th>Student ID</th>
             <th>Last Name</th>
             <th>First Name</th>
             <th>Middle Name</th>
