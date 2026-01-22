@@ -13,7 +13,7 @@
             <p class="">Allows administrators to register <br>and manage student records efficiently.</p>
             <div class="admindiv2">
             <a href="create" class="adminlink1 w-100 h-25">Register Single</a>
-            <a href="{{ route('personal-information.batch') }}" class="adminlink1 w-100 h-25" style="margin-top: 10px; background-color: #17a2b8;">Batch Register</a>
+            <a href="{{ route('personal-information.batch') }}" class="adminlink1 w-100 h-25" style="margin-top: 10px; background-color: #17a2b8;">Batch</a>
         </div>
     </div>
 

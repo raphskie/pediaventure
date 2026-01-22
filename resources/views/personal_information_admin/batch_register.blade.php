@@ -34,7 +34,7 @@
             <!-- Student forms will be added here -->
         </div>
 
-        <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+        <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; align-items: center;">
             <button type="button" onclick="addStudent()" class="design" style="background-color: #2196f3; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
                 ➕ Add Student
             </button>
@@ -44,6 +44,7 @@
             <a href="{{ route('personal-information.index') }}" class="design" style="background-color: #ff9800; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
                 ⬅️ Back
             </a>
+
         </div>
     </form>
 
