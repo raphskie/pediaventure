@@ -56,4 +56,41 @@ class PersonalInformationController extends Controller
         }
         return redirect()->route('personal-information.index');
     }
+
+    public function batchRegisterForm()
+    {
+        return view('personal_information_admin.batch_register');
+    }
+
+    public function batchStore(Request $request)
+    {
+        $validated = $request->validate([
+            'students' => 'required|array|min:1',
+            'students.*.lname' => 'required|string',
+            'students.*.fname' => 'required|string',
+            'students.*.mname' => 'nullable|string',
+            'students.*.age' => 'required|integer',
+            'students.*.sex' => 'required|string',
+            'students.*.address' => 'required|string',
+            'students.*.guardian_name' => 'nullable|string',
+            'students.*.grade_and_section' => 'required|string',
+            'created_by' => 'nullable|string',
+        ]);
+
+        $created_by = $request->input('created_by');
+        $successCount = 0;
+
+        foreach ($validated['students'] as $studentData) {
+            try {
+                $studentData['created_by'] = $created_by;
+                PersonalInformation::create($studentData);
+                $successCount++;
+            } catch (\Exception $e) {
+                continue;
+            }
+        }
+
+        return redirect()->route('personal-information.index', ['uid' => $created_by])
+            ->with('success', "{$successCount} student(s) registered successfully!");
+    }
 }

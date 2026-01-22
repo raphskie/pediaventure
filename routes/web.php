@@ -38,6 +38,12 @@ Route::post('/personal-information', [PersonalInformationController::class, 'sto
 Route::delete('/personal-information/{id}', [PersonalInformationController::class, 'destroy'])
     ->name('personal-information.destroy');
 
+Route::get('/personal-information/batch', [PersonalInformationController::class, 'batchRegisterForm'])
+    ->name('personal-information.batch');
+
+Route::post('/personal-information/batch', [PersonalInformationController::class, 'batchStore'])
+    ->name('personal-information.batch-store');
+
 // Dashboard Routes
 Route::get('/studentregistration', [DashboardController::class, 'register']);
 Route::get('/administrator', [DashboardController::class, 'administrator']);
